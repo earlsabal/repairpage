@@ -4,6 +4,8 @@ body {
   background-repeat:   no-repeat;
   background-attachment: fixed;
   font-family: "Open Sans";
+  width: 80%;
+  margin: auto;
 }
 
 .navbar {
@@ -11,8 +13,13 @@ body {
 	text-align: right;
 }
 
+.phone {
+	vertical-align: 50%;
+}
+
 .icon {
 	display: inline-block;
+	color: white;
 }
 
 .icon img{
@@ -21,13 +28,28 @@ body {
 }
 
 .title {
-	text-align: center
+	text-align: center;
+	padding: 25px;
 }
 
 .box {
 	background-color: white;
-	opacity: 0.8;
+	opacity: 0.95;
 	border-radius: 20px;
-	width: 80%;
-	margin: auto;
+}
+
+.team {
+	text-align: center;
+}
+
+.team-member {
+	display: table-cell;
+	text-align: center;
+}
+
+.team-member img{
+	border-radius: 50%;
+	width: 50%;
+	height: auto;
+	border: 2px solid black;
 }
