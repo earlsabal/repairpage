@@ -1,0 +1,33 @@
+body {
+	background-image: url('bg-stretched');
+	background-size:     100% 100%;                   
+  background-repeat:   no-repeat;
+  background-attachment: fixed;
+  font-family: "Open Sans";
+}
+
+.navbar {
+	list-style-type: none;
+	text-align: right;
+}
+
+.icon {
+	display: inline-block;
+}
+
+.icon img{
+	width: 40px;
+	height: 40px;
+}
+
+.title {
+	text-align: center
+}
+
+.box {
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 20px;
+	width: 80%;
+	margin: auto;
+}
